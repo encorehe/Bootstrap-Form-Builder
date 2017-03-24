@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Text Input",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "textinput"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "文本框"
+      },
+      "placeholder": {
+        "label": "默认值：",
+        "type": "input",
+        "value": "请输入文本"
+      },
+      "helptext": {
+        "label": "描述：",
+        "type": "input",
+        "value": "默认描述"
+      },
+      "required": {
+        "label": "必选",
+        "type": "checkbox",
+        "value": false
+      },
+      "inputsize": {
+        "label": "",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-mini",
+            "label": "Mini",
+            "selected": false
+          },
+          {
+            "value": "input-small",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-medium",
+            "label": "Medium",
+            "selected": false
+          },
+          {
+            "value": "input-large",
+            "label": "Large",
+            "selected": false
+          },
+          {
+            "value": "input-xlarge",
+            "label": "Xlarge",
+            "selected": true
+          },
+          {
+            "value": "input-xxlarge",
+            "label": "Xxlarge",
+            "selected": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Text Area",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "textarea"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "多行文本框"
+      },
+      "textarea": {
+        "label": "内容：",
+        "type": "textarea",
+        "value": ""
+      }
+    }
+  },
+  {
+    "title": "Multiple Radios",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "multipleradios"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "单选框"
+      },
+      "radios": {
+        "label": "选项设置：",
+        "type": "textarea-split",
+        "value": [
+          "单选框选项一",
+          "单选框选项二"
+        ]
+      },
+      "required": {
+        "label": "必选",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },
+  {
+    "title": "Multiple Checkboxes",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "multiplecheckboxes"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "多选框"
+      },
+      "checkboxes": {
+        "label": "选项设置：",
+        "type": "textarea-split",
+        "value": [
+          "多选框选项一",
+          "多选框选项二"
+        ]
+      },
+      "required": {
+        "label": "必选",
+        "type": "checkbox",
+        "value": false
+      }
+    }
+  },
+  {
+    "title": "Select Basic",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "selectbasic"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "下拉选项"
+      },
+      "options": {
+        "label": "选项设置：",
+        "type": "textarea-split",
+        "value": [
+          "下拉选项一",
+          "下拉选项二"
+        ]
+      },
+      "inputsize": {
+        "label": "",
+        "type": "select",
+        "value": [
+          {
+            "value": "input-mini",
+            "label": "Mini",
+            "selected": false
+          },
+          {
+            "value": "input-small",
+            "label": "Small",
+            "selected": false
+          },
+          {
+            "value": "input-medium",
+            "label": "Medium",
+            "selected": false
+          },
+          {
+            "value": "input-large",
+            "label": "Large",
+            "selected": false
+          },
+          {
+            "value": "input-xlarge",
+            "label": "Xlarge",
+            "selected": true
+          },
+          {
+            "value": "input-xxlarge",
+            "label": "Xxlarge",
+            "selected": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "title": "File Button",
+    "fields": {
+      "id": {
+        "label": "元素ID：",
+        "type": "input",
+        "value": "filebutton"
+      },
+      "label": {
+        "label": "提示文本：",
+        "type": "input",
+        "value": "文件上传域"
+      }
+    }
+  }
+]

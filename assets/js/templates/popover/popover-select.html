@@ -1,0 +1,6 @@
+<label class='control-label' style="display:none;"> <%- label %> </label>
+<select class="field" data-type="<%- type %>" id='<%- name %>' style="display:none;">
+<% _.each(value, function(v,k){ %>
+  <option value="<%- v["value"] %>" <% if (v["selected"]){ %> selected <% } %> ><%- v["label"] %></option>
+<% }); %>
+</select>
